@@ -1,0 +1,42 @@
+Line: 206
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(206): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\login_submit.php(38): insertLoginDetails(Object(PDO), NULL, '91d4b94aceb917b...', '1557325727_2')
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name 'login (id_user ,logged_in_timestamp ,login_csrf ,login_token) VALUES (, NOW(),'91d4b94aceb917b08ecbd'
+
+Line: 206
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(206): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\login_submit.php(38): insertLoginDetails(Object(PDO), '2', '0d96d257b343bc6...', '1557325752_2')
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name 'login (id_user ,logged_in_timestamp ,login_csrf ,login_token) VALUES (2, NOW(),'0d96d257b343bc6eca7f'
+
+Line: 206
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(206): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\login_submit.php(38): insertLoginDetails(Object(PDO), '2', '715b11895dbb9fb...', '1557325883_2')
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name 'login (id_user ,logged_in_timestamp ,login_csrf ,login_token) VALUES (2, NOW(),'715b11895dbb9fb5e588'
+
+Line: 206
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(206): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\login_submit.php(38): insertLoginDetails(Object(PDO), '2', '2f0ba0e9cbd82c4...', '1557325886_2')
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1103 Incorrect table name 'login (id_user ,logged_in_timestamp ,login_csrf ,login_token) VALUES (2, NOW(),'2f0ba0e9cbd82c41f0d8'
+
+Line: 218
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(218): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\storelk\ajax\getLoginToken.php(17): selectCSRF(Object(PDO), '36caa8f1747a5dc...')
+#2 {main}
+Message: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Line: 218
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(218): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\storelk\ajax\getLoginToken.php(17): selectCSRF(Object(PDO), '36caa8f1747a5dc...')
+#2 {main}
+Message: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+Line: 218
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(218): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\storelk\ajax\getLoginToken.php(17): selectCSRF(Object(PDO), '1557326051_2')
+#2 {main}
+Message: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+

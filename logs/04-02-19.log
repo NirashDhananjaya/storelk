@@ -1,0 +1,12 @@
+Line: 73
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(73): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(152): getAllItemsByOffset(Object(PDO), NULL)
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+
+Line: 73
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(73): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(152): getAllItemsByOffset(Object(PDO), NULL)
+#2 {main}
+Message: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+

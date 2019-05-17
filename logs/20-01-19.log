@@ -1,0 +1,20 @@
+Line: 39
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(39): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(416): getAllCategories(Object(PDO))
+#2 {main}
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'storelk.categories' doesn't existLine: 39
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(39): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(416): getAllCategories(Object(PDO))
+#2 {main}
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'storelk.categories' doesn't existLine: 39
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(39): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(416): getAllCategories(Object(PDO))
+#2 {main}
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'storelk.categories' doesn't exist
+
+Line: 39
+Trace: #0 C:\xampp\htdocs\storelk\require\functions.php(39): PDOStatement->execute()
+#1 C:\xampp\htdocs\storelk\home.php(416): getAllCategories(Object(PDO))
+#2 {main}
+Message: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'storelk.categories' doesn't exist
+
